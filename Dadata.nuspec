@@ -1,14 +1,12 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Dadata</id>
+    <id>Dadata.TmAvt</id>
     <title>Dadata</title>
     <version>19.8.1</version>
-    <authors>DaData.ru</authors>
-    <owners>DaData.ru</owners>
-    <license type="expression">MIT</license>
+    <authors>TmAvt.ru</authors>
+    <owners>TmAvt.ru</owners>
     <projectUrl>https://github.com/hflabs/dadata-csharp</projectUrl>
-    <repository type="git" url="https://github.com/hflabs/dadata-csharp.git" />
     <iconUrl>https://dadata.ru/static/i/dadata-logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DaData.ru API client for CLR languages.</description>
@@ -21,6 +19,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Dadata\bin\Release\Dadata.dll" target="lib\net45"/>
+    <file src="Dadata\bin\Debug\Dadata.dll" target="lib\net40"/>
+    <file src="Dadata\bin\Debug\Dadata.pdb" target="lib\net40"/>
   </files>
 </package>
